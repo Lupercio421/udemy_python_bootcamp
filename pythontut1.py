@@ -1,5 +1,4 @@
 
-import sys as sys
 
 my_age = 43
 my_name = "Loopy"
