@@ -49,12 +49,12 @@
 age = int(input("Enter Age: "))
 
 if (age < 5):
-    print
+    print("Too young for school")
 
 elif (age == 5):
     print("Go to Kindergarten")
 
-elif (age > 5) and (age <= 17):
+elif (age >= 6) and (age <= 17):
     grade = age - 5
     print("Go to Grade {}".format(grade))
 
