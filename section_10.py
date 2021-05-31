@@ -30,7 +30,7 @@ print("Where is :", rand_string.replace(" an", " a kind of"))
 # letter_z = "z"
 # print("Is z a letter or number: ", letter_z.isalnum())
 # print("Is z a letter or digit: ", letter_z.isdigit())
-letter_z.is
+
 message = input("Enter your message: ")
 key = int(input("How many characters should we shift (1-26): "))
 
