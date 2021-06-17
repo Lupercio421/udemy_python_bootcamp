@@ -29,13 +29,19 @@ import math
 #         print(mult_d_list[i][j], end=" || ")
 
 
-mult_table = [[0] * 10 for i in range(10)]
+# mult_table = [[0] * 10 for i in range(10)]
 
-for i in range(1,10):
-    for j in range(1,10):
-        mult_table[i][j] = (i*j)
+# for i in range(1,10):
+#     for j in range(1,10):
+#         mult_table[i][j] = (i*j)
 
-for i in range(1,10):
-    for j in range(1,10):
-        print(mult_table[i][j], end= ", ")
-    print()    
+# for i in range(1,10):
+#     for j in range(1,10):
+#         print(mult_table[i][j], end= ", ")
+#     print()    
+
+even_list2 = [i*2 for i in range(11)]
+
+for k in even_list2:
+    print(k, end=" ")
+print()
