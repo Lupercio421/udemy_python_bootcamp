@@ -70,25 +70,25 @@ With 2 for loops fill the cells in a multidimensional list with a multiplication
 9, 18, 27, 36, 45, 54, 63, 72, 81
 '''
 
-# Create the multidimensional list
-mult_table = [[0] * 10 for i in range(10)]
+# # Create the multidimensional list
+# mult_table = [[0] * 10 for i in range(10)]
 
-# This will increment for each row
-for i in range(1, 10):
-    # This will increment for each item in the row
-    for j in range(1, 10):
+# # This will increment for each row
+# for i in range(1, 10):
+#     # This will increment for each item in the row
+#     for j in range(1, 10):
 
-        # Assign the value to the cell
-        mult_table[i][j] = i * j
+#         # Assign the value to the cell
+#         mult_table[i][j] = i * j
 
-# Output the data in the same way you assigned it
-for i in range(1, 10):
-    for j in range(1, 10):
-        print(mult_table[i][j], end=", ")
-    print()
+# # Output the data in the same way you assigned it
+# for i in range(1, 10):
+#     for j in range(1, 10):
+#         print(mult_table[i][j], end=", ")
+#     print()
 
 
-
+even_list2 = [i]
 
 
 
