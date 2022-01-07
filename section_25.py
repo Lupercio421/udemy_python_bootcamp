@@ -70,6 +70,15 @@ print(reduce((lambda x,y : x + y), range(1,6)))
 print(list(range(1,11)))
  """
 
+# Solution 1
+
+# list_1_10 = list(range(1,11))
+
+# def dbl_num(num):
+#     return(num * 2)
+    
+# print(list(map(dbl_num, list_1_10)))
+
 # Solution 2
 # a_list = range(1,11)
 
@@ -77,6 +86,6 @@ print(list(range(1,11)))
 
 # Solution 3
 
-a_list2 = range(1,6)
+# a_list2 = range(1,6)
 
-print(reduce((lambda x, y : x + y), a_list2))
+# print(reduce((lambda x, y : x + y), a_list2))
