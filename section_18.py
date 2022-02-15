@@ -1,6 +1,7 @@
 from typing import Protocol
 
 # class Dog:
+# Initilization method - sets all values requried when a new object is created
 #     def __init__(self, name="", height = 0, weight = 0):
 #         self.name = name
 #         self.height = height
