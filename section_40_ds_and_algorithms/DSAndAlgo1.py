@@ -30,7 +30,7 @@ print(timeit.repeat(stmt='get_sum_2(10000000)', repeat=5, number=1, globals=glob
 print("Testing get_sum_3")
 print(timeit.repeat(stmt='get_sum_3(10000000)', repeat=5, number=1, globals=globals()))
 
-# Big-O Notation
+# Big-O Notation- order of magnitude/ how well will our algorithm perform?
 
 # 45n^3 + 20n^2 + 19 (n=1) = 84
 # (n = 2) 84 to 459 + 19
